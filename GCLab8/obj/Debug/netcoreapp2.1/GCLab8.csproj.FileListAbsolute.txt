@@ -1,0 +1,11 @@
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\bin\Debug\netcoreapp2.1\GCLab8.deps.json
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\bin\Debug\netcoreapp2.1\GCLab8.runtimeconfig.json
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\bin\Debug\netcoreapp2.1\GCLab8.runtimeconfig.dev.json
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\bin\Debug\netcoreapp2.1\GCLab8.dll
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\bin\Debug\netcoreapp2.1\GCLab8.pdb
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.csprojAssemblyReference.cache
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.csproj.CoreCompileInputs.cache
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.AssemblyInfoInputs.cache
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.AssemblyInfo.cs
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.dll
+C:\Users\josep\Desktop\coding\C#\GCLab8\GCLab8\obj\Debug\netcoreapp2.1\GCLab8.pdb
