@@ -29,7 +29,7 @@ namespace GCLab8
                 {
                 "Service Sales Rep",
                 "Baker",
-                "Retired",
+                "Pyschologist",
                 "Teacher",
                 "Doctor",
                 "Therapist"
@@ -43,7 +43,7 @@ namespace GCLab8
                 "Social Work" };
             while (repeat)
             {
-                Console.WriteLine("Hi! Welcome to the Student DataBase!");
+                Console.WriteLine("Hi! Welcome to the Student DataBase Main Menu.");
                 //get number into variable and validate
                 for (int index = 0; index < students.Length; index++)
                 {
@@ -52,6 +52,7 @@ namespace GCLab8
                 int studentNumber = Validator(students);
                 //get student name into variable
                 string studentName = students[studentNumber];
+                Console.WriteLine($"\nYou have chosen {studentName}.");
                 //get information about student selected
                 bool repeatOne = true; 
                 while (repeatOne)
@@ -108,22 +109,22 @@ namespace GCLab8
             bool repeat = true;
             while (repeat)
             {
-                Console.WriteLine($"\nYou have chosen {student}, What would you like to know about {student}?\n\tYou can choose: Hometown, Job, or Major.");
+                Console.WriteLine($"\nWhat would you like to know about {student}?\n\tYou can choose: Hometown, Job, or Major.");
                 string whatInfo = Console.ReadLine().ToLower();
                 if (whatInfo == "hometown")
                 {
-                    Console.WriteLine($"{student}'s hometown is {hometown[studentNum]}");
+                    Console.WriteLine($"{student}'s hometown is {hometown[studentNum]}.");
                     repeat = false;
 
                 }
                 else if (whatInfo == "job")
                 {
-                    Console.WriteLine($"{student}'s current job is {job[studentNum]}");
+                    Console.WriteLine($"{student}'s current job is {job[studentNum]}.");
                     repeat = false;
                 }
                 else if (whatInfo == "major")
                 {
-                    Console.WriteLine($"{student}'s major is {major[studentNum]}");
+                    Console.WriteLine($"{student}'s major is {major[studentNum]}.");
                     repeat = false;
                 }
                 else
@@ -141,12 +142,12 @@ namespace GCLab8
                 Console.WriteLine($"Would you like to know more about {learnMore}?");
                 string userRepeat = Console.ReadLine().ToLower();
 
-                if (userRepeat == "n")
+                if (userRepeat == "n" || userRepeat == "no")
                 {
                     Console.WriteLine("Ok, No problem!");
                     repeat = false;
                 }
-                else if (userRepeat == "y")
+                else if (userRepeat == "y" || userRepeat == "yes")
                 {
                     userRepeat = "y";
                     repeat = false;
@@ -154,7 +155,7 @@ namespace GCLab8
                 }
                 else
                 {
-                    Console.WriteLine("please put a y or n");
+                    Console.WriteLine("Please put a yes, y, no, or n.");
                 }
                 
             }
