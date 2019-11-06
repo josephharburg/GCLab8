@@ -29,7 +29,7 @@ namespace GCLab8
                 {
                 "Service Sales Rep",
                 "Baker",
-                "Pyschologist",
+                "Psychologist",
                 "Teacher",
                 "Doctor",
                 "Therapist"
@@ -44,15 +44,20 @@ namespace GCLab8
             while (repeat)
             {
                 Console.WriteLine("Hi! Welcome to the Student DataBase Main Menu.");
-                //get number into variable and validate
+
+                //Show menu 
                 for (int index = 0; index < students.Length; index++)
                 {
                     Console.WriteLine($"{index + 1}: {students[index]}");
                 }
+
+                //get number into variable and validate
                 int studentNumber = Validator(students);
+
                 //get student name into variable
                 string studentName = students[studentNumber];
                 Console.WriteLine($"\nYou have chosen {studentName}.");
+
                 //get information about student selected
                 bool repeatOne = true; 
                 while (repeatOne)
@@ -79,8 +84,8 @@ namespace GCLab8
                 {
                     string userInput = Console.ReadLine();
                     number = int.Parse(userInput) - 1;
+                    string testRange = array[number];
                     repeat = false;
-                    string studentName = array[number];
                 }
                 catch (IndexOutOfRangeException)
                 {
@@ -149,7 +154,6 @@ namespace GCLab8
                 }
                 else if (userRepeat == "y" || userRepeat == "yes")
                 {
-                    userRepeat = "y";
                     repeat = false;
                     return true;
                 }
